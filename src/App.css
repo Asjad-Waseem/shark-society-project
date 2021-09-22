@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-logo {
+  position: absolute;
+  top: 20px;
+  left: 42px;
+}
+
+.birds {
+  position: absolute;
+  left: 42%;
+  top: 70px;
+}
+
+.boat {
+  position: absolute;
+  left: 40%;
+  top: 122px;
+}
+.waves{
+  position: absolute;
+  top: 213px;
+}
+.group{
+  z-index: 1;
+    position: absolute;
+    left: 23%;
+    top: 357px;
+}
+.shark-image{
+  position: relative;
+    top: 896px;
+    left: 43%;
+    z-index: 1;
+}
+.layer-image{
+  position: absolute;
+    top: 773px;
+}
+.main-text{
+  position: absolute;
+    left: 45%;
+    top: 747px;
+    z-index: 1;
+}
+.main-text-one{
+  position: absolute;
+  top: 800px;
+  z-index: 1;
+  left: 45%;
+}
+.image-one{
+  position: absolute;
+  top: 1144px;
+  left: 500px;
+  z-index: 100;
+}
+.image-two{
+  position: absolute;
+  top: 1144px;
+  left: 688px;
+  z-index: 100;
+}
+.image-three{
+  position: absolute;
+  top: 1144px;
+  left: 876px;
+  z-index: 100;
+}
+.image-four{
+  position: absolute;
+  top: 1144px;
+  left: 1069px;
+  z-index: 100;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
